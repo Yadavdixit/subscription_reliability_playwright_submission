@@ -1,0 +1,14 @@
+{
+  "name": "subscription-reliability-playwright",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "test": "playwright test",
+    "test:p0": "playwright test --grep @p0",
+    "test:p1": "playwright test --grep @p1",
+    "report": "playwright show-report"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.55.0"
+  }
+}
